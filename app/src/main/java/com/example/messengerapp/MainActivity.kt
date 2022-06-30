@@ -8,6 +8,7 @@ import com.mikepenz.materialdrawer.AccountHeader
 import com.mikepenz.materialdrawer.AccountHeaderBuilder
 import com.mikepenz.materialdrawer.Drawer
 import com.mikepenz.materialdrawer.DrawerBuilder
+import com.mikepenz.materialdrawer.model.DividerDrawerItem
 import com.mikepenz.materialdrawer.model.PrimaryDrawerItem
 import com.mikepenz.materialdrawer.model.ProfileDrawerItem
 
@@ -48,6 +49,49 @@ class MainActivity : AppCompatActivity() {
                     .withIconTintingEnabled(true)
                     .withName("Создать группу")
                     .withSelectable(false)
+                    .withIcon(R.drawable.icgroup),
+                PrimaryDrawerItem().withIdentifier(101)
+                    .withIconTintingEnabled(true)
+                    .withName("Создать секретный чат")
+                    .withSelectable(false)
+                    .withIcon(R.drawable.icclock),
+                PrimaryDrawerItem().withIdentifier(102)
+                    .withIconTintingEnabled(true)
+                    .withName("Создать канал")
+                    .withSelectable(false)
+                    .withIcon(R.drawable.icmegaphone),
+                PrimaryDrawerItem().withIdentifier(103)
+                    .withIconTintingEnabled(true)
+                    .withName("Контакты")
+                    .withSelectable(false)
+                    .withIcon(R.drawable.icuser),
+                PrimaryDrawerItem().withIdentifier(104)
+                    .withIconTintingEnabled(true)
+                    .withName("Звонки")
+                    .withSelectable(false)
+                    .withIcon(R.drawable.iccall),
+                PrimaryDrawerItem().withIdentifier(104)
+                    .withIconTintingEnabled(true)
+                    .withName("Избранное")
+                    .withSelectable(false)
+                    .withIcon(R.drawable.icbookmark),
+                PrimaryDrawerItem().withIdentifier(104)
+                    .withIconTintingEnabled(true)
+                    .withName("Настройки")
+                    .withSelectable(false)
+                    .withIcon(R.drawable.icsettings),
+                DividerDrawerItem(),
+                PrimaryDrawerItem().withIdentifier(104)
+                    .withIconTintingEnabled(true)
+                    .withName("Пригласить друзей")
+                    .withSelectable(false)
+                    .withIcon(R.drawable.icinvite),
+                PrimaryDrawerItem().withIdentifier(104)
+                    .withIconTintingEnabled(true)
+                    .withName("Вопросы о Telegram")
+                    .withSelectable(false)
+                    .withIcon(R.drawable.ichelp),
+
             ).build()
     }
 
