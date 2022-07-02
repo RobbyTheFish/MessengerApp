@@ -70,27 +70,32 @@ class MainActivity : AppCompatActivity() {
                     .withName("Звонки")
                     .withSelectable(false)
                     .withIcon(R.drawable.iccall),
-                PrimaryDrawerItem().withIdentifier(104)
+                PrimaryDrawerItem().withIdentifier(105)
                     .withIconTintingEnabled(true)
                     .withName("Избранное")
                     .withSelectable(false)
                     .withIcon(R.drawable.icbookmark),
-                PrimaryDrawerItem().withIdentifier(104)
+                PrimaryDrawerItem().withIdentifier(106)
                     .withIconTintingEnabled(true)
                     .withName("Настройки")
                     .withSelectable(false)
                     .withIcon(R.drawable.icsettings),
                 DividerDrawerItem(),
-                PrimaryDrawerItem().withIdentifier(104)
+                PrimaryDrawerItem().withIdentifier(107)
                     .withIconTintingEnabled(true)
                     .withName("Пригласить друзей")
                     .withSelectable(false)
                     .withIcon(R.drawable.icinvite),
-                PrimaryDrawerItem().withIdentifier(104)
+                PrimaryDrawerItem().withIdentifier(108)
                     .withIconTintingEnabled(true)
                     .withName("Вопросы о Telegram")
                     .withSelectable(false)
                     .withIcon(R.drawable.ichelp),
+                PrimaryDrawerItem().withIdentifier(109)
+                    .withIconTintingEnabled(true)
+                    .withName("Съесть Володю")
+                    .withSelectable(false)
+                    .withIcon(R.drawable.ictitan),
 
             ).build()
     }
